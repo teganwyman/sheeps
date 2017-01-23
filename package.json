@@ -1,12 +1,9 @@
 {
   "name": "sheeps",
   "version": "1.0.0",
-  "description": "",
+  "description": "game",
   "main": "js/main.js",
-  "scripts": {
-    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
-    "start": "http-server -p 9000"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jessica-Koch/sheeps.git"
@@ -18,9 +15,14 @@
   },
   "homepage": "https://github.com/Jessica-Koch/sheeps#readme",
   "devDependencies": {
-    "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",
-    "babel-preset-es2015": "^6.22.0",
-    "http-server": "^0.9.0"
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.22.0",
+    "babel-runtime": "^6.22.0"
   }
 }
