@@ -1,0 +1,26 @@
+{
+  "name": "sheeps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "js/main.js",
+  "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server -p 9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jessica-Koch/sheeps.git"
+  },
+  "author": "Jessica Koch, Tegan Wyman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jessica-Koch/sheeps/issues"
+  },
+  "homepage": "https://github.com/Jessica-Koch/sheeps#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-preset-es2015": "^6.22.0",
+    "http-server": "^0.9.0"
+  }
+}
